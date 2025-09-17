@@ -18,5 +18,11 @@ A simple two‑player Minesweeper played in the terminal. Players take turns ope
 - `Cell.java` — A single cell: state (`open`/`mine`) and neighbor count display.
 - `Player.java` — Player model: name, score, reads moves from standard input.
 
+## Build & Run
+```bash
+javac *.java
+java Game
+```
+
 ## Notes
 - This is a classroom assignment; feel free to adapt or extend.
